@@ -53,3 +53,4 @@ app.use("/api/messages", messageRoutes);
 //   console.log("server is running on PORT:" + PORT);
 //   connectDB();
 // });
+export default app;
