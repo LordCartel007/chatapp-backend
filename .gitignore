@@ -1,0 +1,39 @@
+# Node.js dependencies
+node_modules
+npm-debug.log
+yarn-error.log
+pnpm-debug.log
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Logs
+logs
+*.log
+logs/*.log
+debug.log
+*.pid
+*.seed
+*.csv
+
+# Build output
+dist
+.build
+.cache
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.iml
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Next.js / React
+.next/
+out/
