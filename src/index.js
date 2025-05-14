@@ -21,7 +21,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: "https://ai.autocartel.shop/",
     credentials: true,
   })
 );
@@ -53,4 +53,6 @@ app.use("/api/messages", messageRoutes);
 //   console.log("server is running on PORT:" + PORT);
 //   connectDB();
 // });
+
+//app needs to be exported for vercel to work
 export default app;
